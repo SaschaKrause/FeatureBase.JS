@@ -52,7 +52,7 @@
           }
       }
 
-      xmlhttp.open("POST", "http://localhost:8000/"+data.type, true);
+      xmlhttp.open("POST", "https://featurebaseapi.herokuapp.com/"+data.type, true);
       xmlhttp.setRequestHeader('Content-type','application/json; charset=utf-8');
       xmlhttp.send(JSON.stringify(data));
   }
