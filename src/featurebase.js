@@ -44,10 +44,11 @@
                  onSuccess && onSuccess("successfully send");
              }
              else if(xmlhttp.status == 400) {
-                alert('There was an error 400')
+                console.log('There was an error 400')
              }
              else {
-                 alert('something else other than 200 was returned')
+                console.log('something else other than 200 was returned:')
+                console.log(xmlhttp)
              }
           }
       }
