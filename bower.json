@@ -1,0 +1,17 @@
+{
+  "name": "featurebase.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/SaschaKrause/FeatureBase.JS",
+  "authors": [
+    "Sascha Krause <https://twitter.com/krausesh>"
+  ],
+  "main": "src/featurebase.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
